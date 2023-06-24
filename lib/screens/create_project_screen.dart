@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:local_database/models/project_model.dart';
-import 'package:local_database/models/project_model.dart';
 import 'package:local_database/services/database_helper.dart';
 
 class CreateProjectScreen extends StatelessWidget {
@@ -41,7 +40,7 @@ class CreateProjectScreen extends StatelessWidget {
                 TextField(
                   controller: titleController,
                   decoration:
-                      InputDecoration.collapsed(hintText: 'Project Name'),
+                      const InputDecoration.collapsed(hintText: 'Project Name'),
                 ),
                 TextField(
                   onTap: () {},

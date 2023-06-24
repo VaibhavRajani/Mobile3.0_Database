@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "420368578439",
+    "project_id": "fss-mobile",
+    "storage_bucket": "fss-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420368578439:android:4c81f4a2fa88744e760522",
+        "android_client_info": {
+          "package_name": "com.example.base_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420368578439-rft5dtg6us782ou0vvt8t7g55ge2iosl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTWi9s3Qv9xtjTeSxq-tROaXQG0gCE-wM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420368578439-rft5dtg6us782ou0vvt8t7g55ge2iosl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "420368578439-nmhtg5ru2neltn43vv8u3n50lau3dfeg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.localDatabase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

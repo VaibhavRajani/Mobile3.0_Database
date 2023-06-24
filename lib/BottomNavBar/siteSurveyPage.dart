@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/project_model.dart';
 import '../services/database_helper.dart';
 import '../widgets/projectCard.dart';
-import '../screens/createProjectScreen.dart';
+import '../screens/create_project_screen.dart';
 
 class ProjectsScreen extends StatefulWidget {
   const ProjectsScreen({Key? key}) : super(key: key);
@@ -48,7 +48,7 @@ class _ProjectsScreenState extends State<ProjectsScreen> {
                   await Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => CreateProjectScreen(
+                      builder: (context) => const CreateProjectScreen(
                         note: null, // Pass your project object here if needed
                       ),
                     ),
